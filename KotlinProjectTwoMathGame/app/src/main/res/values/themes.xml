@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.KotlinProjectTwoMathGame" parent="Theme.Material3.DayNight.NoActionBar">
+         <item name="colorPrimary">@color/green</item>
+         <item name="colorPrimaryVariant">@color/green</item>
+         <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/secondaryColor</item>
+    </style>
+    <style name="Base.Theme.GamePage" parent="Theme.Material3.DayNight.NoActionBar">
+    <item name="colorPrimary">@color/blue</item>
+    <item name="colorPrimaryVariant">@color/blue</item>
+    <item name="colorOnPrimary">@color/blue</item>
+
+    <item name="colorSecondary">@color/secondaryColor</item>
+</style>
+
+    <style name="Theme.KotlinProjectTwoMathGame" parent="Base.Theme.KotlinProjectTwoMathGame" />
+</resources>
